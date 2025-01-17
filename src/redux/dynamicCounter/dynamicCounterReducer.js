@@ -1,4 +1,4 @@
-import { DDECREMENT, DINCREMENT } from "./actionType";
+import { DDECREMENT, DINCREMENT } from "../dynamicCounter/actionTpyes";
 
 const intialState = {
     value: 0,

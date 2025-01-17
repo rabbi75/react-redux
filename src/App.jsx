@@ -1,4 +1,5 @@
-import HooksCounter from "./components/hooksCounter";
+import HooksCounter from "./components/HooksCounter";
+import DynamicHooksCounter from "./components/DynamicHooksCounter";
 export default function App() {
     return (
         <div className="w-screen h-screen p-10 bg-gray-100 text-slate-700">
@@ -6,7 +7,8 @@ export default function App() {
                   Simple Counter Application
               </h1>
               <div className="max-w-md mx-auto mt-10 space-y-5">
-                <HooksCounter id={1} />
+                <HooksCounter />
+                <DynamicHooksCounter />
               </div>
         </div>
     );
