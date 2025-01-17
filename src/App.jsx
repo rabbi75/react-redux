@@ -6,7 +6,7 @@ export default function App() {
                   Simple Counter Application
               </h1>
               <div className="max-w-md mx-auto mt-10 space-y-5">
-                <Counter />
+                <Counter id={1} />
               </div>
         </div>
     );
